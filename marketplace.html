@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Amatak Marketplace Data</title>
+    <style>
+        /* This is just for documentation - the launcher parses the JSON */
+        body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: white; }
+        .note { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+    <!-- 
+        AMATAK MARKETPLACE DATA
+        This file contains embedded JSON data for the Amatak App Launcher
+        The launcher parses the content of div#marketplace-data
+    -->
+    
+    <!-- Main marketplace data div -->
+    <div id="marketplace-data" style="display: none;">
+{
+    "version": "1.0.0",
+    "last_updated": "2026-03-11",
+    "apps": [
+        {
+            "id": "amatak_desktop_one",
+            "name": "Amatak_Desktop_One",
+            "version": "1.1.3",
+            "price": 9.99,
+            "currency": "USD",
+            "description": "A modern application launcher for Amatak Holdings products that automatically discovers and displays...",
+            "features": [
+                "Automatic app discovery",
+                "Clean modern interface",
+                "One-click launch",
+                "Category organization",
+                "Search functionality",
+                "Regular updates"
+            ],
+            "image": "https://raw.githubusercontent.com/unique-edge/public/refs/heads/main/assets/Amatak_Desktop_One.png",
+            "order_url": "https://uniqueedge.net/",
+            "category": "Development & Programming Tools",
+            "rating": 4.5,
+            "reviews": 0,
+            "popular": true
+        },
+        {
+            "id": "qr_code",
+            "name": "qr_code",
+            "version": "1.1.1",
+            "price": 9.99,
+            "currency": "USD",
+            "description": "**IDEs, code editors, development utilities**...",
+            "features": [
+                "Automatic app discovery",
+                "Clean modern interface",
+                "One-click launch",
+                "Category organization",
+                "Search functionality",
+                "Regular updates"
+            ],
+            "image": "https://raw.githubusercontent.com/unique-edge/public/refs/heads/main/assets/qr_code.png",
+            "order_url": "https://uniqueedge.net/",
+            "category": "Development & Programming Tools",
+            "rating": 4.5,
+            "reviews": 0,
+            "popular": true
+        }
+    ]
+}
+    </div>
+
+    <!-- Featured apps list (optional) -->
+    <div id="featured-apps" style="display: none;">
+        ["amatak_desktop_one", "qr_code"]
+    </div>
+
+    <!-- Promo banners (optional) -->
+    <div id="promo-banners" style="display: none;">
+        [
+    {
+        "id": "spring-sale",
+        "title": "Spring Sale!",
+        "discount": "25% OFF",
+        "code": "SPRING25",
+        "expires": "2026-04-30"
+    },
+    {
+        "id": "bundle-deal",
+        "title": "Business Bundle",
+        "discount": "30% OFF",
+        "code": "BIZ30",
+        "expires": "2026-12-31"
+    }
+]
+    </div>
+
+    <!-- Documentation (not parsed by launcher) -->
+    <div style="margin: 20px; padding: 20px; border: 1px solid #333; border-radius: 10px;">
+        <h2>📋 Marketplace Data Summary</h2>
+        <p><strong>Version:</strong> 1.0.0</p>
+        <p><strong>Last Updated:</strong> 2026-03-11</p>
+        <p><strong>Total Apps:</strong> 2</p>
+        <p><strong>Categories:</strong> Development & Programming Tools</p>
+        <p><strong>Featured Apps:</strong> Amatak_Desktop_One, qr_code</p>
+        <p><strong>Active Promos:</strong> Spring Sale (25% OFF), Business Bundle (30% OFF)</p>
+        <p class="note">This data is embedded and will be parsed by the Amatak App Launcher.</p>
+    </div>
+</body>
+</html>
