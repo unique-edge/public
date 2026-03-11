@@ -1,0 +1,12 @@
+```
+public/  🚀 Main project directory with core application files
+├── .gitignore
+├── LICENSE
+├── LICENSE.spdx
+├── README.md
+├── assets/  📁 Contains brand assets, icons, and visual resources
+│   ├── Amatak_Desktop_One.png
+│   ├── MyTaskApp.png
+│   └── qr_code.png
+└── marketplace.html
+```
